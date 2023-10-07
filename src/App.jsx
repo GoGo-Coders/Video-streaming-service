@@ -15,6 +15,34 @@ function App() {
         fetchUrl={`${base_url}${requests.fetchNetflixOriginals}`}
         isLarge={true}
       />
+       <Row
+        title="Trending Now"
+        fetchUrl={`${base_url}${requests.fetchTrending}`}
+      />
+      <Row
+        title="Top Rated"
+        fetchUrl={`${base_url}${requests.fetchTopRated}`}
+      />
+      <Row
+        title="Action Movies"
+        fetchUrl={`${base_url}${requests.fetchActionMovies}`}
+      />
+      <Row
+        title="Comedy Movies"
+        fetchUrl={`${base_url}${requests.fetchComedyMovies}`}
+      />
+      <Row
+        title="Horror Movies"
+        fetchUrl={`${base_url}${requests.fetchHorrorMovies}`}
+      />
+      <Row
+        title="Romantic Movies"
+        fetchUrl={`${base_url}${requests.fetchRomanceMovies}`}
+      />
+      <Row
+        title="Documentaries"
+        fetchUrl={`${base_url}${requests.fetchDocumentaries}`}
+      />
       
     </div>
   );

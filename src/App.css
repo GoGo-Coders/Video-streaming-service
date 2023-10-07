@@ -152,4 +152,17 @@ padding-bottom: 0.3rem;}
 margin-right: 10px;
   transition: transform 450ms;
 }
+.rowimage:hover{border: 2px solid white;
+  transform: scale(1.08);
+}
+.rowimages::-webkit-scrollbar{
+  display: none;
+}
 
+.large{
+  max-height: 250px;
+}
+.large:hover{
+  transform: scale(1.09);
+ 
+}
